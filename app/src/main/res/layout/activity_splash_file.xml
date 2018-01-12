@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+
+  >
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+    <WebView
+
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#000000"
+        android:id="@+id/aboutweb"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:textColor="#f5f7f9"
+        android:textSize="30dp"
+        android:text="VEHICLE MANAGEMENT SYSTEM"
+        />
+
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+</LinearLayout>

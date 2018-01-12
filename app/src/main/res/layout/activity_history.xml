@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_history"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:orientation="vertical"
+    android:background="@drawable/grad"
+   >
+
+
+    <TextView
+        android:text="Source"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:padding="20dp"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/source" />
+
+    <EditText
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Latitude"
+        android:background="@drawable/shape"
+        android:ems="10"
+        android:id="@+id/solat" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Longitude"
+        android:padding="20dp"
+        android:background="@drawable/shape"
+        android:ems="10"
+        android:id="@+id/solon" />
+    
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+
+    <TextView
+        android:text="Destination"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:id="@+id/destination" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Latitude"
+        android:padding="20dp"
+        android:background="@drawable/shape"
+        android:ems="10"
+        android:id="@+id/destlat" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+       android:hint="Longitude"
+        android:ems="10"
+        android:background="@drawable/shape"
+        android:padding="20dp"
+        android:id="@+id/destlon" />
+
+</LinearLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_view_profile"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad"
+    >
+    <ImageView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/profile"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    <TextView
+        android:text="Name"
+        android:background="@drawable/rounded_border_textview"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:typeface="serif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dname"
+        android:drawableLeft="@drawable/u"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:text="User Name"
+        android:gravity="center"
+        android:background="@drawable/rounded_border_textview"
+        android:textSize="20sp"
+        android:typeface="serif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/duname"
+        android:drawableLeft="@drawable/u"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:text="Vehicle Number"
+        android:gravity="center"
+        android:background="@drawable/rounded_border_textview"
+        android:textSize="20sp"
+        android:typeface="serif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dvnum"
+        android:drawableLeft="@drawable/vv"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:text="Registration Date"
+        android:gravity="center"
+        android:background="@drawable/rounded_border_textview"
+        android:textSize="20sp"
+        android:typeface="serif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dpnum"
+        android:drawableLeft="@drawable/date2"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:text="Password"
+        android:gravity="center"
+        android:background="@drawable/rounded_border_textview"
+        android:textSize="20sp"
+        android:typeface="serif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dpass"
+        android:drawableLeft="@drawable/pa"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_view_profile"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad"
+    >
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <EditText
+        android:hint="Name"
+        android:background="@drawable/rounded_border_textview"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:drawableLeft="@drawable/u"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <EditText
+        android:hint="User Name"
+        android:gravity="center"
+        android:background="@drawable/rounded_border_textview"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/uname"
+        android:drawableLeft="@drawable/u"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <EditText
+        android:hint="Vehicle Number"
+        android:inputType="text"
+        android:gravity="center"
+        android:background="@drawable/rounded_border_textview"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/vnum"
+        android:drawableLeft="@drawable/vv"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <EditText
+        android:hint="Enter Date"
+        android:gravity="center"
+        android:inputType="text"
+        android:background="@drawable/rounded_border_textview"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/date"
+        android:drawableLeft="@drawable/date2"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <EditText
+        android:hint="Password"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:background="@drawable/rounded_border_textview"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pass"
+        android:drawableLeft="@drawable/pa"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <Button
+        android:padding="20dp"
+        android:text="Submit"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit"
+        android:background="@drawable/btn_grad"
+        android:onClick="submit"
+        android:textColor="#ffffff"
+         />
+
+
+
+</LinearLayout>

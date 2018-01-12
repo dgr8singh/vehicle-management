@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TrackSystem</string>
+
+    <string name="title_activity_maps">VehicleTrack</string>
+
+    <string name="title_activity_splash_file">VehicleTrack</string>
+
+</resources>
